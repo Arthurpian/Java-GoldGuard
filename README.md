@@ -249,15 +249,6 @@ Formato de erro:
 
 ---
 
-## 📝 Critérios de Avaliação (como atendemos)
-- **Estruturação (25%)**: camadas separadas, DTO/VO/Enums, código limpo.
-- **Requisições (20%)**: endpoints REST completos, validação de entrada, `ResponseEntity`, handler de erros.
-- **Banco (20%)**: modelagem com FK/índices, migrações Flyway, CRUD funcional.
-- **Interface de acesso (15%)**: testável via Insomnia/Postman/curl.
-- **Documentação (10%)**: este README com setup, exemplos, tecnologias.
-
----
-
 ## 🧭 Tecnologias
 Java 21 · Spring Boot 4.0.0-M3 · Web · Data JPA · Validation · Lombok · Flyway · MySQL 8
 
@@ -275,14 +266,5 @@ curl -X POST http://localhost:8080/api/v1/transactions \
 
 curl "http://localhost:8080/api/v1/metrics/summary?userId=1"
 ```
-
----
-
-## 🗺️ Roadmap (ideias futuras)
-- Autenticação/JWT e multiusuário real
-- Exportação CSV/Excel do extrato
-- Métricas avançadas (média móvel, limites por casa)
-- Notificações (e-mail/Telegram) quando risco = HIGH
-- Paginação e filtros adicionais nos endpoints de transações
 
 ---
